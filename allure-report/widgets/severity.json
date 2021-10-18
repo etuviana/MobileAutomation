@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a6e4a45e35a713cf",
+  "name" : "Login",
+  "time" : {
+    "start" : 1633956318795,
+    "stop" : 1633956321558,
+    "duration" : 2763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d042be3d1ff2a1ec",
+  "name" : "Navigate to Home page",
+  "time" : {
+    "start" : 1634105679855,
+    "stop" : 1634105683402,
+    "duration" : 3547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f48918f00b5281",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1634032988216,
+    "stop" : 1634032988218,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84404d8d9f58fc80",
+  "name" : "Navigate to Login page",
+  "time" : {
+    "start" : 1634033754188,
+    "stop" : 1634033757068,
+    "duration" : 2880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,92 @@
+{
+  "uid" : "f9434a360f3a7afb",
+  "name" : "testUntitled",
+  "fullName" : "ex.ExperiBank.testUntitled",
+  "historyId" : "b4807414506da3083c8a5762f5ff8799",
+  "time" : {
+    "start" : 1633956195884,
+    "stop" : 1633956200085,
+    "duration" : 4201
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1633956185609,
+      "stop" : 1633956195841,
+      "duration" : 10232
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1633956200160,
+      "stop" : 1633956204676,
+      "duration" : 4516
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ex.ExperiBank"
+  }, {
+    "name" : "testClass",
+    "value" : "ex.ExperiBank"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUntitled"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MobileAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "ex.ExperiBank"
+  }, {
+    "name" : "host",
+    "value" : "IL-etuviana-W2"
+  }, {
+    "name" : "thread",
+    "value" : "2384@IL-etuviana-W2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9434a360f3a7afb.json",
+  "parameterValues" : [ ]
+}

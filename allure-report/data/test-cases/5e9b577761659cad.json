@@ -1,0 +1,94 @@
+{
+  "uid" : "5e9b577761659cad",
+  "name" : "Navigate to Login page",
+  "fullName" : "test.MainTest.A01_Login",
+  "historyId" : "888bec87e1b6586e0cabc3d0efb11c07",
+  "time" : {
+    "start" : 1634022811033,
+    "stop" : 1634022815137,
+    "duration" : 4104
+  },
+  "description" : "Open ExperiBank APP , enter user Name and password click on Login",
+  "descriptionHtml" : "<p>Open ExperiBank APP , enter user Name and password click on Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634022800990,
+      "stop" : 1634022810981,
+      "duration" : 9991
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1634022815213,
+      "stop" : 1634022818894,
+      "duration" : 3681
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.MainTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "A01_Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MobileAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.MainTest"
+  }, {
+    "name" : "host",
+    "value" : "IL-etuviana-W2"
+  }, {
+    "name" : "thread",
+    "value" : "2200@IL-etuviana-W2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5e9b577761659cad.json",
+  "parameterValues" : [ ]
+}

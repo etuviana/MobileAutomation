@@ -1,0 +1,139 @@
+{
+  "uid" : "d042be3d1ff2a1ec",
+  "name" : "Navigate to Home page",
+  "fullName" : "test.HomeTest.A01_Login",
+  "historyId" : "2ffdb443a99ed01feb6b415ec76229b",
+  "time" : {
+    "start" : 1634105679855,
+    "stop" : 1634105683402,
+    "duration" : 3547
+  },
+  "description" : "Open ExperiBank APP , enter user Name and password click on Login",
+  "descriptionHtml" : "<p>Open ExperiBank APP , enter user Name and password click on Login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634105671438,
+      "stop" : 1634105679804,
+      "duration" : 8366
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1634105683474,
+      "stop" : 1634105687359,
+      "duration" : 3885
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "test.HomeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "test.HomeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "A01_Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MobileAutomation"
+  }, {
+    "name" : "subSuite",
+    "value" : "test.HomeTest"
+  }, {
+    "name" : "host",
+    "value" : "IL-etuviana-W2"
+  }, {
+    "name" : "thread",
+    "value" : "12668@IL-etuviana-W2.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "da5fa19a8b753533",
+      "status" : "broken",
+      "statusDetails" : "Can't locate an element by this strategy: By.chained({By.id: usernameTextField})",
+      "time" : {
+        "start" : 1634105658623,
+        "stop" : 1634105659986,
+        "duration" : 1363
+      }
+    }, {
+      "uid" : "56734e2b52c0a076",
+      "status" : "broken",
+      "statusDetails" : "Can't locate an element by this strategy: By.chained({By.id: logoutButton})",
+      "time" : {
+        "start" : 1634105528130,
+        "stop" : 1634105531195,
+        "duration" : 3065
+      }
+    }, {
+      "uid" : "c194e8fe2636a34d",
+      "status" : "broken",
+      "statusDetails" : "Can't locate an element by this strategy: By.chained({By.id: logoutButton})",
+      "time" : {
+        "start" : 1634105339338,
+        "stop" : 1634105342889,
+        "duration" : 3551
+      }
+    }, {
+      "uid" : "f7e800daf331f38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634105242753,
+        "stop" : 1634105245533,
+        "duration" : 2780
+      }
+    }, {
+      "uid" : "3f0a520b70160069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634104303392,
+        "stop" : 1634104307216,
+        "duration" : 3824
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d042be3d1ff2a1ec.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MobileAutomation",
+      "children" : [ {
+        "name" : "ex.ExperiBank",
+        "children" : [ {
+          "name" : "Login",
+          "uid" : "a6e4a45e35a713cf",
+          "parentUid" : "1a3b900085c9a1824c0d6921085c88f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1633956318795,
+            "stop" : 1633956321558,
+            "duration" : 2763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1a3b900085c9a1824c0d6921085c88f3"
+      }, {
+        "name" : "test.HomeTest",
+        "children" : [ {
+          "name" : "Navigate to Home page",
+          "uid" : "d042be3d1ff2a1ec",
+          "parentUid" : "31f979cb58c0b3b66d73b47bd75c5812",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634105679855,
+            "stop" : 1634105683402,
+            "duration" : 3547
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "31f979cb58c0b3b66d73b47bd75c5812"
+      } ],
+      "uid" : "ffc272e1d01643f1af56322e90e45826"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "test.MainTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "33f48918f00b5281",
+          "parentUid" : "1816919e5ae4e68bf57d1469726ff92b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1634032988216,
+            "stop" : 1634032988218,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Navigate to Login page",
+          "uid" : "84404d8d9f58fc80",
+          "parentUid" : "1816919e5ae4e68bf57d1469726ff92b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634033754188,
+            "stop" : 1634033757068,
+            "duration" : 2880
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1816919e5ae4e68bf57d1469726ff92b"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ]
+}

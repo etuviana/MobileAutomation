@@ -1,0 +1,79 @@
+{
+  "2b9755505204af7d787e800986e1b7db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33f48918f00b5281",
+      "status" : "broken",
+      "statusDetails" : "Connection refused: connect\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'IL-ETUVIANA-W2', ip: '192.168.1.53', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: AndroidDriver",
+      "time" : {
+        "start" : 1634032988216,
+        "stop" : 1634032988218,
+        "duration" : 2
+      }
+    } ]
+  },
+  "888bec87e1b6586e0cabc3d0efb11c07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84404d8d9f58fc80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634033754188,
+        "stop" : 1634033757068,
+        "duration" : 2880
+      }
+    } ]
+  },
+  "b4807414506da3083c8a5762f5ff8799" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6e4a45e35a713cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633956318795,
+        "stop" : 1633956321558,
+        "duration" : 2763
+      }
+    } ]
+  },
+  "2ffdb443a99ed01feb6b415ec76229b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d042be3d1ff2a1ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634105679855,
+        "stop" : 1634105683402,
+        "duration" : 3547
+      }
+    } ]
+  }
+}

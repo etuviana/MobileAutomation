@@ -1,0 +1,311 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "IL-etuviana-W2",
+    "children" : [ {
+      "name" : "11620@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "f7e800daf331f38",
+        "parentUid" : "59630c8bfa6251442c7c1042ed359f76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634105242753,
+          "stop" : 1634105245533,
+          "duration" : 2780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59630c8bfa6251442c7c1042ed359f76"
+    }, {
+      "name" : "18848@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "ae3d7df109a08e6",
+        "parentUid" : "74f46a96a6198f2adb290dbcb4b2018f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634026808243,
+          "stop" : 1634026808536,
+          "duration" : 293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74f46a96a6198f2adb290dbcb4b2018f"
+    }, {
+      "name" : "9312@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "a6670af2a280219c",
+        "parentUid" : "f01aae1bd9090542ae4ecafa7b3459bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634026489379,
+          "stop" : 1634026489689,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f01aae1bd9090542ae4ecafa7b3459bb"
+    }, {
+      "name" : "10800@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "c194e8fe2636a34d",
+        "parentUid" : "2108ac78d7b1986b1ade96acf3798d60",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634105339338,
+          "stop" : 1634105342889,
+          "duration" : 3551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2108ac78d7b1986b1ade96acf3798d60"
+    }, {
+      "name" : "18884@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "b5439d37134928b0",
+        "parentUid" : "3452dbf5e1390017df9951711dd0d3d6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634026733350,
+          "stop" : 1634026733649,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3452dbf5e1390017df9951711dd0d3d6"
+    }, {
+      "name" : "19320@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Home page",
+        "uid" : "da5fa19a8b753533",
+        "parentUid" : "00cc0d9e703e6b5f75ba3152ba263def",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634105658623,
+          "stop" : 1634105659986,
+          "duration" : 1363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00cc0d9e703e6b5f75ba3152ba263def"
+    }, {
+      "name" : "18312@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "d3c640473a6235b1",
+        "parentUid" : "e547527d7026c22484cc5d5d4af282bb",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1634032988287,
+          "stop" : 1634032988288,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "33f48918f00b5281",
+        "parentUid" : "e547527d7026c22484cc5d5d4af282bb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634032988216,
+          "stop" : 1634032988218,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e547527d7026c22484cc5d5d4af282bb"
+    }, {
+      "name" : "2384@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "testUntitled",
+        "uid" : "f9434a360f3a7afb",
+        "parentUid" : "b304ad04785bc03b77a8fc6586e5c1e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633956195884,
+          "stop" : 1633956200085,
+          "duration" : 4201
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b304ad04785bc03b77a8fc6586e5c1e8"
+    }, {
+      "name" : "3248@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "7572be286f4f9dbd",
+        "parentUid" : "2b0e16d13194b3f1baf7b71b8d15816f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634027103795,
+          "stop" : 1634027104170,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b0e16d13194b3f1baf7b71b8d15816f"
+    }, {
+      "name" : "11076@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Login",
+        "uid" : "a6e4a45e35a713cf",
+        "parentUid" : "ca3cce1ee427a642da87866a18a5a9b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633956318795,
+          "stop" : 1633956321558,
+          "duration" : 2763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca3cce1ee427a642da87866a18a5a9b7"
+    }, {
+      "name" : "10712@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "451b083773e78f04",
+        "parentUid" : "9e656e295bffe0265a7a1aa57854e649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634027167848,
+          "stop" : 1634027172342,
+          "duration" : 4494
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e656e295bffe0265a7a1aa57854e649"
+    }, {
+      "name" : "21940@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "84404d8d9f58fc80",
+        "parentUid" : "2e00b71eef8bc5d8f6e27cbad935f751",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634033754188,
+          "stop" : 1634033757068,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e00b71eef8bc5d8f6e27cbad935f751"
+    }, {
+      "name" : "12668@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Home page",
+        "uid" : "d042be3d1ff2a1ec",
+        "parentUid" : "de7d173f65a2974c0244dd57e14fe852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634105679855,
+          "stop" : 1634105683402,
+          "duration" : 3547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de7d173f65a2974c0244dd57e14fe852"
+    }, {
+      "name" : "19248@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "56734e2b52c0a076",
+        "parentUid" : "8bc5839a923c5ccec172647236a5c8bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634105528130,
+          "stop" : 1634105531195,
+          "duration" : 3065
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8bc5839a923c5ccec172647236a5c8bd"
+    }, {
+      "name" : "20820@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "faf56cf607d82820",
+        "parentUid" : "d1d1121178f06ed415a3015fafb01258",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634033137762,
+          "stop" : 1634033141711,
+          "duration" : 3949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1d1121178f06ed415a3015fafb01258"
+    }, {
+      "name" : "17500@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "3f0a520b70160069",
+        "parentUid" : "1fe38b307eac03798db51f62ecb523b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104303392,
+          "stop" : 1634104307216,
+          "duration" : 3824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1fe38b307eac03798db51f62ecb523b9"
+    }, {
+      "name" : "2200@IL-etuviana-W2.main(1)",
+      "children" : [ {
+        "name" : "Navigate to Login page",
+        "uid" : "5e9b577761659cad",
+        "parentUid" : "237d18a416118629031e1c31c2c225dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634022811033,
+          "stop" : 1634022815137,
+          "duration" : 4104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "237d18a416118629031e1c31c2c225dc"
+    } ],
+    "uid" : "da9a8b7318c0823310b010f7ae9fa523"
+  } ]
+}

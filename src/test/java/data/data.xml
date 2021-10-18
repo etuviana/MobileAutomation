@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <UDID>R58N83VT1SZ</UDID>
+    <APP_PACKAGE>com.experitest.ExperiBank</APP_PACKAGE>
+    <APP_ACTIVITY>.LoginActivity</APP_ACTIVITY>
+    <APPIUM_SERVER>http://localhost:4723/wd/hub</APPIUM_SERVER>
+    <USERNAME>company</USERNAME>
+    <PASSWORD>company</PASSWORD>
+    <EXPECTED_BALANCE>96.00</EXPECTED_BALANCE>
+</Environment>
