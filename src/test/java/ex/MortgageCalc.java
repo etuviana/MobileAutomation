@@ -7,6 +7,8 @@ import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.ScreenOrientation;
@@ -26,6 +28,8 @@ public class MortgageCalc {
 
 
     protected AndroidDriver<AndroidElement> driver = null;
+    private AppiumDriverLocalService service;
+
 
     DesiredCapabilities dc = new DesiredCapabilities();
 
@@ -35,11 +39,17 @@ public class MortgageCalc {
         dc.setCapability(MobileCapabilityType.UDID, "8a11d9ca");
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.shivgadhia.android.ukMortgageCalc");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".MainActivity");
-        driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), dc);
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        //driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), dc);
+        //driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
+        AppiumServiceBuilder builder = new AppiumServiceBuilder().usingAnyFreePort();//if u want usingPort(4723);
+        service = AppiumDriverLocalService.buildService(builder);
+        driver = new AndroidDriver<>(builder, dc);
+
+        service.start();
     }
 
-   // @Test
+   @Test
     public void testUntitled_01() {
         driver.findElement(By.id("etAmount")).sendKeys("5000");
         driver.findElement(By.id("etTerm")).sendKeys("10");
@@ -54,7 +64,7 @@ public class MortgageCalc {
 
     }
 
-    @Test
+    //@Test
     public void testDevice_02() {
         //System.out.println(driver.getStatus());
         //System.out.println(driver.getDeviceTime());
@@ -98,5 +108,6 @@ public class MortgageCalc {
 
         //Uninterruptibles.sleepUninterruptibly(2,TimeUnit.SECONDS);
         driver.quit();
+        service.stop();
     }
 }
