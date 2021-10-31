@@ -12,6 +12,7 @@
     <test name="LoginTest">
         <classes>
             <class name="test.HomeTest" />
+            <class name="test.BalanceTest" />
         </classes>
     </test> <!--LOGIN -->
 

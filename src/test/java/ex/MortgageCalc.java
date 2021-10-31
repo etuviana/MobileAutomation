@@ -9,6 +9,7 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.ScreenOrientation;
@@ -49,7 +50,8 @@ public class MortgageCalc {
         service.start();
     }
 
-   @Test
+    @Test(description = "Navigate to Home page APP Test")
+    @Description("Open Mortgage Calc APP , enter Amount,Term ,Rate and click on Calculate ,print Repayment and InterestOnly")
     public void testUntitled_01() {
         driver.findElement(By.id("etAmount")).sendKeys("5000");
         driver.findElement(By.id("etTerm")).sendKeys("10");
@@ -61,43 +63,41 @@ public class MortgageCalc {
        AndroidElement Inter = driver.findElement(By.id("tvInterestOnly"));
 
         System.out.println("Repayment is:" + Rep.getText() + "InterestOnly is:"+Inter.getText());
-
     }
 
-    //@Test
+    @Test(description = "Actions on the device and Print information to screen")
+    @Description("Print to screen: Status ,DevicesTime ,RemoteAddress ,currentActivity, Orientation and is AppInstalled")
     public void testDevice_02() {
-        //System.out.println(driver.getStatus());
-        //System.out.println(driver.getDeviceTime());
-        //System.out.println(driver.getRemoteAddress());
-        //System.out.println(driver.currentActivity());
-        //System.out.println(driver.getOrientation());
-        //String pageSource = driver.getPageSource();
-        //System.out.println(pageSource);
-        //driver.openNotifications();
-        //driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
-        //System.out.println( driver.isAppInstalled("com.shivgadhia.android.ukMortgageCalc"));
+        System.out.println("getStatus is : "+driver.getStatus());
+        System.out.println("getDevicesTime is : "+driver.getDeviceTime());
+        System.out.println("getRemoteAddress is : "+driver.getRemoteAddress());
+        System.out.println("currentActivity is : "+driver.currentActivity());
+        System.out.println("getOrientation is : "+driver.getOrientation());
+        System.out.println("is AppInstalled : "+ driver.isAppInstalled("com.shivgadhia.android.ukMortgageCalc"));
     }
 
 
-   //@Test
+    //@Test(description = "Actions on the device")
+   // @Description("open Notifications and click on Back key")
     public void testDevice_03() throws InterruptedException {
 
         driver.openNotifications();
         driver.pressKey(new KeyEvent().withKey(AndroidKey.BACK));
     }
 
-    //@Test
+    //@Test(description = "Actions on the device")
+    // @Description("lock and unlock device")
     public void testDevice_04() {
 
         driver.lockDevice();
         driver.unlockDevice();
     }
 
-    //@Test
+    //@Test(description = "Actions on the device")
+    // @Description("Replace Screen Orientation")
     public void testDevice_05() {
 
         System.out.println(driver.getOrientation());
-
         driver.rotate(ScreenOrientation.LANDSCAPE);
 
     }
@@ -105,8 +105,6 @@ public class MortgageCalc {
 
     @AfterClass
     public void tearDown() {
-
-        //Uninterruptibles.sleepUninterruptibly(2,TimeUnit.SECONDS);
         driver.quit();
         service.stop();
     }
