@@ -32,9 +32,6 @@ public class BaseTest {
         dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.experitest.ExperiBank");
         dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, ".LoginActivity");
 
-        //dc.setCapability("browserstack.user", "pandats1");
-        //dc.setCapability("browserstack.key", "o7dfTyiyvSHSVjtKHCqd");
-
         driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), dc);
     }
 
