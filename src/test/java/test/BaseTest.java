@@ -40,7 +40,7 @@ public class BaseTest {
     public String getData (String nodeName) {
         DocumentBuilder dBuilder;
         Document doc = null;
-        File fXmlFile = new File("C:\\Users\\etuviana\\IdeaProjects\\MobileAutomation\\src\\test\\java\\data\\data.xml");
+        File fXmlFile = new File("C:\\Users\\eladtu\\IdeaProjects\\MobileAutomation\\src\\test\\java\\data\\data.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         try {
             dBuilder = dbFactory.newDocumentBuilder();
